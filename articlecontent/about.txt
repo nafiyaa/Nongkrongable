@@ -1,0 +1,2 @@
+Nongkrongable merupakan website yang dikembangkan untuk memberi rekomendasi cafe kekinian di Kota Malang. Rekomendasi yang kami berikan sangat beragam, mulai dari cafe dengan menu yang murah, tempat aesthetic, instagramable, dan lainnya. Website ini dikembangkan guna membantu pendatang, mahasiswa, orang yang sekedar liburan, bahkan warga Malang sendiri yang membutuhkan informasi mengenai cafe-cafe di Kota Malang. 
+Selamat nongkrong teman nongkrongable!
