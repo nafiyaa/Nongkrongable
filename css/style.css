@@ -12,8 +12,7 @@ nav ul{
     position: fixed;
     top: 0;
     left: 0;
-    background-color: #623C27;
-    
+    background-color: #623C27; 
 }
 
 nav li {
@@ -159,14 +158,14 @@ main {
 }
 
 @media screen and (max-width: 800px) {
-    .leftcolumn, .rightcolumn {
+    .leftcolumn {
         width: 100%;
         padding: 10;
     }
 
     /* kolom profile */
     .rightcolumn{
-        width: 30%;
+        display: none;
     }
 
     .profileimage{
