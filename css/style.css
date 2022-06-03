@@ -15,6 +15,7 @@ nav ul{
     background-color: #623C27; 
 }
 
+
 nav li {
     margin-right: 35px;
 }
@@ -28,7 +29,7 @@ nav li a {
     padding: 10px 15px 10px 15px;
 }
 
-nav i a:hover {
+nav li a:hover {
     background-color: #AC6848;
 }
 
@@ -157,15 +158,56 @@ main {
     margin-top: 20px;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (min-width: 320px) and (max-width: 700px) {
     .leftcolumn {
         width: 100%;
         padding: 10;
     }
+    * p{
+        font-size: 16px;
+    }
+
+    /* navbar */
+    nav li a {
+        font-size: small;
+        float: right;
+        display: block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 15px 10px 15px;
+    }
+    nav li .tittle {
+        font-size: 16px;
+        font-family: "Pacifico", sans-serif;
+        color: white;
+        margin-left: 10px;
+        padding: 5px 0 5px 0;
+    }
+    nav li {
+        margin-right: 0;
+    }
+
+   /*  main */ 
+    main {
+    margin: 5px 10px 0 10px;
+    }
 
     /* kolom profile */
-    .rightcolumn{
-        display: none;
+    .row {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .row .leftcolumn {
+        grid-row: 1;
+    }
+
+    .row .rightcolumn {
+        grid-column: 1;
+    }
+    .rightcolumn {
+        width: 80%;
     }
 
     .profileimage{
@@ -183,6 +225,11 @@ main {
 
     .profile p{
         font-size: 12px;
+    }
+
+    /* Footer */
+    .copyright p{
+        font-size: 10px;
     }
 
 }
